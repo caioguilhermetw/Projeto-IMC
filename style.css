@@ -1,0 +1,88 @@
+/*
+body{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1px;
+    
+}
+input{
+    margin: 1%
+}
+
+section{
+    color: black;
+    background: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 8%;
+    margin: auto;
+    padding: 50px 50px;
+}
+*/
+input{
+    margin: 1.5%
+}
+
+input#b{
+    padding: 1.5%;
+    margin: auto;
+    text-align: center;
+}
+
+
+ body {
+    
+    background-image: linear-gradient(to bottom, rgb(9, 163, 9), rgb(9, 199, 9), rgb(65, 231, 65));
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+
+
+}
+div#ris{
+    padding: 5px;
+    text-align: center;
+}
+
+div#tabela{
+    text-align: center;
+    margin: 50px;
+    
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    background-color: aliceblue;  
+    margin: auto;
+}
+
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+footer {
+    color:aliceblue;
+    text-align: center;
+    font-style: italic;
+
+
+}

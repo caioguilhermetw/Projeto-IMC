@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calcule seu IMC</h1>
+    </header>
+
+    <section>
+       
+        
+            <label for="nome">Qual seu nome:</label> <input type="text" name="nome" id="nome"> <br>
+            Sexo: <label for="gen">Homem</label> 
+            <input type="radio" name="gen" id="masc">
+            <label for="gen">Mulher</label>
+            <input type="radio" name="gen" id="fem"> <br>
+            <label for="idade">Qual sua idade:</label> <input type="number" name="idade" id="idade"> <br>
+            <label for="peso">Seu peso:</label><input type="number" name="peso" id="peso"> <br>
+            <label for="alt">Sua altura(em metros): </label><input type="number" name="alt" id="alt"> <br>
+            <input  type="button" value="Calcular" onclick="calcular()" id="b">
+        
+   
+    <div id="ris">
+
+    </div>
+
+    
+</section>
+
+<div id="tabela">
+    <table>
+        <caption>Tabela IMC</caption>
+           <tr>
+              <td>Abaixo de 17</td>
+              <td>Magreza grave</td>
+           </tr>
+           <tr>
+              <td>Entre 17 e 18.5</td>
+              <td>Você está com magreza leve</td>
+           </tr>
+           <tr>
+               <td>Entre 18.6 e 24.9</td>
+               <td>Você está com o peso normal (eutrofico)</td>
+           </tr>
+           <tr>
+               <td>Entre 25 e 29.9</td>
+               <td>Você está acima do peso</td>
+           </tr>
+           <tr>
+               <td>Entre 30 e 34.9</td>
+               <td>Você está com Obesidade nível 1 </td>
+           </tr>
+           <tr>
+               <td>Entre 35 e 39.9</td>
+               <td>Você está com obesidade nível 2</td>
+           </tr>
+           <tr>
+               <td>Acima de 40</td>
+               <td>Você está com obesidade nível 3 (mórbida)</td>
+           </tr>
+    </table>
+
+    <footer>
+        <p>&copy;Caio</p>
+    </footer>
+    
+    
+</body>
+</html>
