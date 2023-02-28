@@ -4,7 +4,7 @@ function calcular(){
     let ida = document.getElementById('idade').value;
     let pes = document.getElementById('peso').value;
     let altu= document.getElementById('alt').value;
-    let sx = document.getElementsByName('gen').value;
+    
     
  
     if(nom =="" || ida==0 || pes==0 || altu ==0 ){
@@ -18,7 +18,7 @@ function calcular(){
         let imc = p/(a*a)
 
         if (imc<17 ){
-            ris.innerHTML = `${nom} você tem ${(sx[=].checked)}  ${i} anos e seu <strong>imc é de ${imc.toFixed(2)},<strong> você está com magreza grave`;
+            ris.innerHTML = `${nom} você tem ${i} anos e seu <strong>imc é de ${imc.toFixed(2)},<strong> você está com magreza grave`;
             document.body.style.background = '#eaf738';
 
         }else if(imc>=17 && imc<=18.5 ) {
